@@ -1,0 +1,55 @@
+#navtop{
+    display: flex;
+    position: fixed;
+    background-color: gray;
+    width: 100%;
+   
+    top: 0;
+    left: 0;
+}
+#navtop>a{
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20pt;
+}
+#navtop>a:hover{
+    background-color: #2b62b7;
+    color: #d4313e;
+}
+#welcome_content{
+    margin-left: 40%;
+    margin-top: 25%;
+    font-size: 20pt;
+    font-weight: bolder;
+    
+}
+#contact_content{
+    margin-left: 40%;
+    margin-top: 25%;
+    font-size: 20pt;
+    font-weight: bolder;
+    display: none;
+}
+#project_content{
+    margin-left: 35%;
+    margin-top: 15%;
+    display: none;
+   width: fit-content;
+   border: 0.5px solid gray;
+}
+#imgx{
+    max-width: 100%;
+    height: auto;
+}
+#imgtitle{
+    background-color:rgba(0,0,0,.5);
+    
+}
+#imgtitle>a{
+    text-decoration: none;
+    color: white;
+}
+
+
