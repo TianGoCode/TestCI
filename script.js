@@ -106,5 +106,12 @@ function contact() {
     document.getElementById("contact_content").style.display = "block"
 }
 
+//note
+// -mình thấy hơi khó hiểu yêu cầu của phần load trang web ạ, 
+// "- Có phần Project gallery. Mỗi projects có ảnh và tiêu đề của project đó dưới ảnh, có thể click vào từng project."
+//  yêu cầu này là mình bấm vào project, đi đến trang chứa project hay display ảnh minh họa project hay dùng cách nào khác nữa?
+// - nếu mình được làm lại thì mình muốn được nói rõ hơn là có thể dùng cách nào nếu không dùng DOM hoặc dùng nhiều trang HTML
+// - xin cảm ơn !
+
 
 
