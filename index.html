@@ -7,6 +7,7 @@
     <title>Entrance Test to Code Intensive!!!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body style="background-color: #ddd;">
@@ -16,23 +17,27 @@
         <a href="#" onclick="contact()">Contact</a>
     </div>
 
-
-    <div id="welcome_content">
-        <p>Hello, My name is Tuan Vu</p>
-        <p>Just a test! So please enjoy!</p>
-    </div>
-    <div id="project_content">
-        <img id="imgx" src="https://images.wisegeek.com/multimedia-news.jpg" alt="altenative_img" width="500px" height="500px">
-        <div id="imgtitle">
-            <a href="https://tiangocode.github.io/KTL_iTech/">This is my first ever Project! (Click here !)</a>
+    <div class="row justify-content-around">
+        <div id="welcome_content">
+            <p>Hello, My name is Tuan Vu</p>
+            <p>Just a test! So please enjoy!</p>
+        </div>
+        <div class="project_content">
+            <div>
+                <img id="imgx" class="img-fluid img-thumbnail" src="https://images.wisegeek.com/multimedia-news.jpg" alt="altenative_img">
+            </div>
+            <div id="imgtitle">
+                <a href="https://tiangocode.github.io/KTL_iTech/">This is my first ever Project! (Click here !)</a>
+            </div>
+        </div>
+        
+        <div id="contact_content">
+            <h1>Vu Hoang Tuan</h1>
+            <h1>Class: C4EJS 82</h1>
+            <h1>Email: vuhoangtuan0213@gmail.com</h1>
         </div>
     </div>
-    <div id="contact_content">
-        <p>Vu Hoang Tuan</p>
-        <p>Class: C4EJS 82</p>
-        <p>Email: vuhoangtuan0213@gmail.com</p>
-    </div>
+   
     <script src="script.js"></script>
 </body>
-
 </html>

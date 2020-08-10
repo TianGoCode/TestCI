@@ -18,38 +18,37 @@
     background-color: #2b62b7;
     color: #d4313e;
 }
-#welcome_content{
-    margin-left: 40%;
-    margin-top: 25%;
+
+#welcome_content{  
+    margin-top: 25%; 
     font-size: 20pt;
-    font-weight: bolder;
-    
+    font-weight: bolder;  
 }
-#contact_content{
-    margin-left: 40%;
-    margin-top: 25%;
+#contact_content{ 
+    margin-top: 25%; 
     font-size: 20pt;
     font-weight: bolder;
     display: none;
 }
-#project_content{
-    margin-left: 35%;
-    margin-top: 15%;
+.project_content{  
+    margin-top: 15%; 
     display: none;
    width: fit-content;
    border: 0.5px solid gray;
 }
 #imgx{
-    max-width: 100%;
+    width: 500px;
     height: auto;
 }
 #imgtitle{
     background-color:rgba(0,0,0,.5);
-    
+    height: auto;   
 }
 #imgtitle>a{
     text-decoration: none;
     color: white;
 }
+
+
 
 
